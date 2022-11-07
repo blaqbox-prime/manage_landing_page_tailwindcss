@@ -1,0 +1,17 @@
+{
+  "name": "tailwindcrashcourse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:css": "tailwindcss -i ./src/style.css -o ./public/style.css --watch",
+    "build:css" : "tailwindcss build -i ./src/style.css -o ./public/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.2.2"
+  }
+}
